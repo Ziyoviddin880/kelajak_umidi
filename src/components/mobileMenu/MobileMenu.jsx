@@ -17,7 +17,7 @@ const MobileMenu = ({ mobileMenu, setMobileMenu }) => {
         >
           <IoMdClose className="text-[30px] text-customBlack " />
         </div>
-        <Nav />
+        <Nav setMobileMenu={setMobileMenu} />
         <div className="mt-10">
           <Media />
         </div>

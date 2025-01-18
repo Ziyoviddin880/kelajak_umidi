@@ -17,7 +17,7 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="hidden md:block">
-          <Nav setMobileMenu={setMobileMenu} />
+          <Nav />
         </div>
         <div className="flex items-center md:hidden gap-2">
           <ChangeLng />

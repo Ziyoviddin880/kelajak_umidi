@@ -6,6 +6,11 @@ const Nav = ({ setMobileMenu }) => {
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
       <NavLink
+        onClick={() => {
+          if (setMobileMenu) {
+            setMobileMenu(false);
+          }
+        }}
         to="/"
         className={({ isActive }) =>
           `text-[18px] transition-all duration-200 ${
@@ -14,7 +19,6 @@ const Nav = ({ setMobileMenu }) => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
-        // onClick={() => setMobileMenu(false)}
       >
         {t("homePage")}
       </NavLink>
@@ -27,7 +31,11 @@ const Nav = ({ setMobileMenu }) => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
-        // onClick={() => setMobileMenu(false)}
+        onClick={() => {
+          if (setMobileMenu) {
+            setMobileMenu(false);
+          }
+        }}
       >
         {t("services")}
       </NavLink>
@@ -40,7 +48,11 @@ const Nav = ({ setMobileMenu }) => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
-        // onClick={() => setMobileMenu(false)}
+        onClick={() => {
+          if (setMobileMenu) {
+            setMobileMenu(false);
+          }
+        }}
       >
         {t("prices")}
       </NavLink>
@@ -53,7 +65,11 @@ const Nav = ({ setMobileMenu }) => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
-        // onClick={() => setMobileMenu(false)}
+        onClick={() => {
+          if (setMobileMenu) {
+            setMobileMenu(false);
+          }
+        }}
       >
         {t("aboutUs")}
       </NavLink>
