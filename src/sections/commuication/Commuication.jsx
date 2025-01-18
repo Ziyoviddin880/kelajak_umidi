@@ -1,6 +1,10 @@
 import Button from "../../components/button/Button";
 
 const Commuication = () => {
+  const submit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <section className="py-12 px-4 lg:px-0 bg-customBlack dark:bg-customWhite">
       <div className="container">
@@ -24,7 +28,7 @@ const Commuication = () => {
             <p className="text-customWhite mt-5 dark:text-customBlack text-[20px]  lg:text-[30px] font-bold mb-8 ">
               Ma'lumotingizni qoldiring
             </p>
-            <form>
+            <form onSubmit={submit}>
               <input
                 className="w-full mb-5 py-3 px-4 bg-gray-200 dark:bg-white dark:border outline-none rounded-md text-[18px]"
                 type="text"
