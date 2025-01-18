@@ -4,7 +4,7 @@ import TopMenu from "../topMenu/TopMenu";
 
 const Header = () => {
   return (
-    <header className="bg-customBlack dark:bg-customWhite sticky top-0 z-10">
+    <header className="bg-customBlack dark:bg-customWhite sticky top-0 z-10 shadow-lg ">
       <TopMenu />
       <Navbar />
     </header>

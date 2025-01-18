@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ setMobileMenu }) => {
   const { t } = useTranslation();
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
@@ -14,11 +14,12 @@ const Nav = () => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
+        // onClick={() => setMobileMenu(false)}
       >
         {t("homePage")}
       </NavLink>
       <NavLink
-        to="services"
+        to="/services"
         className={({ isActive }) =>
           `text-[18px] transition-all duration-200 ${
             isActive
@@ -26,11 +27,12 @@ const Nav = () => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
+        // onClick={() => setMobileMenu(false)}
       >
         {t("services")}
       </NavLink>
       <NavLink
-        to="prices"
+        to="/prices"
         className={({ isActive }) =>
           `text-[18px] transition-all duration-200 ${
             isActive
@@ -38,11 +40,12 @@ const Nav = () => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
+        // onClick={() => setMobileMenu(false)}
       >
         {t("prices")}
       </NavLink>
       <NavLink
-        to="aboutUs"
+        to="/aboutUs"
         className={({ isActive }) =>
           `text-[18px] transition-all duration-200 ${
             isActive
@@ -50,6 +53,7 @@ const Nav = () => {
               : "text-customWhite dark:text-customBlack hover:text-customLightGreen dark:hover:text-customLightGreen  "
           }`
         }
+        // onClick={() => setMobileMenu(false)}
       >
         {t("aboutUs")}
       </NavLink>
