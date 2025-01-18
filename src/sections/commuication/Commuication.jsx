@@ -4,7 +4,11 @@ const Commuication = () => {
   return (
     <section className="py-12 px-4 lg:px-0 bg-customBlack dark:bg-customWhite">
       <div className="container">
-        <div className="flex flex-wrap gap-[4%]">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="flex flex-wrap gap-[4%]"
+        >
           <div className="w-[100%] lg:w-[58%]">
             <p className="text-customWhite dark:text-customBlack text-[24px] lg:text-[40px] font-bold">
               Biznesingizni rivojlantirish, daromadingizni oshirish uchun

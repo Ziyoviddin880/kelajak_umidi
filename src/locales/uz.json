@@ -10,5 +10,11 @@
     "title2": "Umidlari",
     "text": "Katta maqsadli, keng imkoniyatli, kelajagiga befarq bo'lmagan liderlar uchun yordamchi jamoa"
   },
-  "apply": "Bog'lanish"
+  "apply": "Bog'lanish",
+  "carousel": {
+    "title": {
+      "first": "Sizga taklif etadigan",
+      "second": "xizmatlarimiz"
+    }
+  }
 }

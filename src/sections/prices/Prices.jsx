@@ -1,10 +1,15 @@
 import { FaCheck } from "react-icons/fa";
+import Button from "../../components/button/Button";
 
 const Prices = ({ price }) => {
   return (
     <section className="bg-customBlack dark:bg-customWhite py-8">
       <div className="container px-3 lg:px-0">
-        <div className="flex flex-wrap flex-w border-2 group hover:border-customDarkGreen n transition-all duration-200">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="flex flex-wrap flex-w border-2 group hover:border-customDarkGreen n transition-all duration-200"
+        >
           <div className="border-b-2 lg:border-b-0 lg:border-r-2 md:w-full lg:w-[50%] 2xl:w-[30%] p-10 group-hover:border-r-customDarkGreen group-hover:border-b-customDarkGreen transition-all duration-200">
             <p className="text-[25px] text-center lg:text-left  font-bold text-customDarkGreen transition-all duration-200">
               {price.title}
@@ -50,9 +55,7 @@ const Prices = ({ price }) => {
               </p>
             </div>
             <div className="mt-5 sm:mt-0">
-              <button className="bg-customDarkGreen  hover:bg-customLightGreen transition-all duration-200 text-customWhite py-3 px-5 rounded">
-                Buyurtma berish
-              </button>
+              <Button>Buyurtma berish</Button>
             </div>
           </div>
         </div>

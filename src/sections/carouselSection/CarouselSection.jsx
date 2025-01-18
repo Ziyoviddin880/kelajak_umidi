@@ -1,8 +1,11 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useTranslation } from "react-i18next";
 
 const CarouselSection = () => {
+  const { t } = useTranslation();
+
   const settings = {
     infinite: true,
     slidesToShow: 3,
@@ -45,8 +48,11 @@ const CarouselSection = () => {
           data-aos="fade-up"
           className="text-[40px] text-customWhite dark:text-customBlack  font-bold text-center"
         >
-          Sizga taklif etadigan
-          <span className="text-customDarkGreen"> xizmatlarimiz</span>
+          {t("carousel.title.first")}
+          <span className="text-customDarkGreen">
+            {" "}
+            {t("carousel.title.second")}
+          </span>
         </h4>
       </div>
       <div className="slider-container text-center mt-14 overflow-hidden">
