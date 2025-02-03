@@ -7,62 +7,64 @@ import { FaRecycle } from "react-icons/fa";
 import { RiAdminFill } from "react-icons/ri";
 import { MdDomain } from "react-icons/md";
 import { BiSupport } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 const Advantages = () => {
+  const { t } = useTranslation();
   const advantages = [
     {
       id: "01",
       icon: <FaComputer className="text-customDarkGreen text-[50px]" />,
-      title: "Moslashuvchan",
-      text: "Yaratgan web saytlarimiz moslashuvchan, ya'ni komputer, planshet va mobil versiyaga ega bo'ladi.",
+      title: t("advantages.data.title.first"),
+      text: t("advantages.data.text.first"),
     },
     {
       id: "02",
       icon: <GiGrowth className="text-customDarkGreen text-[50px]" />,
-      title: "Natijaga yo‘naltirilganlik",
-      text: "Mijozlarimiz uchun foydalanuvchilarni jalb qiladigan, daromadni oshiradigan va biznesni rivojlantiradigan samarali web-saytlar yaratamiz",
+      title: t("advantages.data.title.second"),
+      text: t("advantages.data.text.second"),
     },
     {
       id: "03",
       icon: <IoSpeedometer className="text-customDarkGreen text-[50px]" />,
-      title: "Tezkorlik",
-      text: "Loyihalarni belgilangan muddatlarda va sifatli yakunlaymiz. Kutilmagan qiyinchiliklarga tezkor javob berish va yechim topish qobiliyatimiz bor.",
+      title: t("advantages.data.title.third"),
+      text: t("advantages.data.text.third"),
     },
     {
       id: "04",
       icon: <MdPriceChange className="text-customDarkGreen text-[50px]" />,
-      title: "Narx va sifatning uyg'unligi",
-      text: "Qulay va raqobatbardosh narxlarda yuqori sifatli xizmatlar ko'rsatamiz. Har bir byudjetga mos variantlarimiz mavjud.",
+      title: t("advantages.data.title.fourth"),
+      text: t("advantages.data.text.fourth"),
     },
     {
       id: "05",
       icon: <MdOutlineSecurity className="text-customDarkGreen text-[50px]" />,
-      title: "Xavfsizlik",
-      text: "Bizning web saytlar zamonaviy antivirus va fayrvollar bilan ximoyalangan bo'lib, spambot va xujumlarga bardosh bera oladi.",
+      title: t("advantages.data.title.fiveth"),
+      text: t("advantages.data.text.fiveth"),
     },
     {
       id: "06",
       icon: <FaRecycle className="text-customDarkGreen text-[50px]" />,
-      title: "Uzoq muddatli qo‘llab-quvvatlash",
-      text: "Qulay va raqobatbardosh narxlarda yuqori sifatli xizmatlar ko'rsatamiz. Har bir byudjetga mos variantlarimiz mavjud.",
+      title: t("advantages.data.title.sixth"),
+      text: t("advantages.data.text.sixth"),
     },
     {
       id: "07",
       icon: <RiAdminFill className="text-customDarkGreen text-[50px]" />,
-      title: "Admin Panel",
-      text: "Web sayt qulay va sodda boshqaruv tizimiga ega bo'ladi, bu esa sizga web saytni mustaqil boshqarishingizga imkon beradi",
+      title: t("advantages.data.title.seventh"),
+      text: t("advantages.data.text.seventh"),
     },
     {
       id: "08",
       icon: <MdDomain className="text-customDarkGreen text-[50px]" />,
-      title: "Domen va Xosting",
-      text: "Biz bilan siz domen va xosting muammolariga duch kelmaysiz. Bizda domen 1 yilga (.uz) va xosting 3 oyga bepul (keyin 10$/oyiga) ",
+      title: t("advantages.data.title.eight"),
+      text: t("advantages.data.text.eight"),
     },
     {
       id: "09",
       icon: <BiSupport className="text-customDarkGreen text-[50px]" />,
-      title: "Monitoring 24/7",
-      text: "Web saytingiz usluksiz ishlab turishi uchun, 24 soat davomida onlayn avtomatik tarzda kuzatib turiladi",
+      title: t("advantages.data.title.nineth"),
+      text: t("advantages.data.text.nineth"),
     },
   ];
 
@@ -73,14 +75,13 @@ const Advantages = () => {
           data-aos="fade-up"
           className="text-[30px] md:text-[40px] text-center text-customWhite dark:text-customBlack md:mx-14 font-bold"
         >
-          Nega aynan biz? Nega ko'pchilik insonlar bizning xizmatimizni
-          tanlashadi?
+          {t("advantages.title.text1")}
         </h4>
         <h4
           data-aos="fade-up"
           className="text-[30px] md:text-[40px] text-center font-bold text-customDarkGreen"
         >
-          Afzalliklarimiz
+          {t("advantages.title.text2")}
         </h4>
 
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8 auto-rows-fr mt-10">

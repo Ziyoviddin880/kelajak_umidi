@@ -10,7 +10,7 @@ const Prices = ({ price }) => {
           data-aos-duration="1000"
           className="flex flex-wrap flex-w border-2 group hover:border-customDarkGreen n transition-all duration-200"
         >
-          <div className="border-b-2 lg:border-b-0 lg:border-r-2 md:w-full lg:w-[50%] 2xl:w-[30%] p-10 group-hover:border-r-customDarkGreen group-hover:border-b-customDarkGreen transition-all duration-200">
+          <div className="border-b-2 lg:border-b-0 lg:border-r-2 w-full md:w-full lg:w-[50%] 2xl:w-[30%] p-10 group-hover:border-r-customDarkGreen group-hover:border-b-customDarkGreen transition-all duration-200">
             <p className="text-[25px] text-center lg:text-left  font-bold text-customDarkGreen transition-all duration-200">
               {price.title}
             </p>
@@ -55,7 +55,9 @@ const Prices = ({ price }) => {
               </p>
             </div>
             <div className="mt-5 sm:mt-0">
-              <Button>Buyurtma berish</Button>
+              <Button>
+                <a href="#contact">Buyurtma berish</a>
+              </Button>
             </div>
           </div>
         </div>

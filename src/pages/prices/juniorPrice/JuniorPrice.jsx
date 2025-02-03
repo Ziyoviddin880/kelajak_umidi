@@ -1,9 +1,16 @@
-export const juniorPrice = {
-  title: "Boshlang'ich sahifa",
-  text: "Bir sahifalik oddiy sayt. Asosiy ma’lumotlar (masalan, xizmatlar, aloqa ma’lumotlari) bir sahifada joylashadi.",
-  name: "Domen .uz",
-  security: "Ximoya 24/7",
-  day: "Muddati 7 kun",
-  pages: "Sahifalar soni 1 ta",
-  price: "$100",
+import { useTranslation } from "react-i18next";
+
+const JuniorPrice = () => {
+  const { t } = useTranslation();
+  return {
+    title: t("price.first.title"),
+    text: t("price.first.text"),
+    name: t("price.first.name"),
+    security: t("price.first.security"),
+    day: t("price.first.day"),
+    pages: t("price.first.pages"),
+    price: "$100",
+  };
 };
+
+export default JuniorPrice;

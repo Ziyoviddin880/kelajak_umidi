@@ -10,9 +10,9 @@ const HeroSection = () => {
       <div className="container">
         <h1
           data-aos="fade-right"
-          className="text-customWhite font-bold text-[35px] sm:text-[60px] md:text-[80px] xl:text-[120px] tracking-[10px] text-center opacity-80  "
+          className="text-customWhite font-bold text-[35px] sm:text-[60px] md:text-[80px] xl:text-[120px] tracking-[10px] text-center opacity-80"
         >
-          {t("title.title1")} <br /> {t("title.title2")}
+          Kelajak <br /> Umidlari
         </h1>
         <p
           data-aos="fade-right"
@@ -21,7 +21,9 @@ const HeroSection = () => {
           {t("title.text")}
         </p>
         <div className="text-center opacity-80 mt-10 ">
-          <Button type="button">{t("apply")}</Button>
+          <Button type="button">
+            <a href="#contact">{t("apply")}</a>{" "}
+          </Button>
         </div>
       </div>
     </section>

@@ -6,11 +6,14 @@ import Prices from "../../sections/prices/Prices";
 import PriceTitle from "../../sections/priceTitle/PriceTitle";
 import Questions from "../../sections/questionsSection/Questions";
 import WithUsSection from "../../sections/withUsSection/WithUsSection";
+import juniorPrice from "../prices/juniorPrice/JuniorPrice";
+import middlePrice from "../prices/middlePrice/MiddlePrice";
+import seniorPrice from "../prices/seniorPrice/SeniorPrice";
 
-import { juniorPrice } from "../prices/juniorPrice/JuniorPrice";
-import { middlePrice } from "../prices/middlePrice/MiddlePrice";
-import { seniorPrice } from "../prices/seniorPrice/SeniorPrice";
 const Home = () => {
+  const JuniorPrice = juniorPrice();
+  const MiddlePrice = middlePrice();
+  const SeniorPrice = seniorPrice();
   return (
     <>
       <HeroSection />
@@ -19,9 +22,9 @@ const Home = () => {
       <Advantages />
       <Questions />
       <PriceTitle />
-      <Prices price={juniorPrice} />
-      <Prices price={middlePrice} />
-      <Prices price={seniorPrice} />
+      <Prices price={JuniorPrice} />
+      <Prices price={MiddlePrice} />
+      <Prices price={SeniorPrice} />
       <Commuication />
     </>
   );

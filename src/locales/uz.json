@@ -15,6 +15,172 @@
     "title": {
       "first": "Sizga taklif etadigan",
       "second": "xizmatlarimiz"
+    },
+    "elements": {
+      "first": "Web sayt yaratish",
+      "second": "Mobil ilovalar yaratish",
+      "third": "Avtomatlashtirish tizimlari",
+      "fourth": "Raqamli yechimlar"
+    }
+  },
+  "withUs": {
+    "title1": "Biz bilan birgalikda: ",
+    "title2": "siz erisha olasiz",
+    "data": {
+      "first": "Onlayn mavjudlik",
+      "second": "Professional imidj",
+      "third": "Tadbirkorlikni kengaytirish",
+      "fourt": "Ish jarayonlarini avtomatlashtirish",
+      "fiveth": "Marketing va reklama imkoniyatlari",
+      "sixth": "Axborot va analitika"
+    }
+  },
+  "advantages": {
+    "title": {
+      "text1": "Nega aynan biz? Nega ko'pchilik insonlar bizning xizmatimizni tanlashadi?",
+      "text2": "Afzalliklarimiz"
+    },
+    "data": {
+      "title": {
+        "first": "Moslashuvchan",
+        "second": "Natijaga yo‘naltirilganlik",
+        "third": "Tezkorlik",
+        "fourth": "Narx va sifatning uyg'unligi",
+        "fiveth": "Xavfsizlik",
+        "sixth": "Uzoq muddatli qo‘llab-quvvatlash",
+        "seventh": "Admin Panel",
+        "eight": "Domen va Xosting",
+        "nineth": "Monitoring 24/7"
+      },
+      "text": {
+        "first": "Yaratgan web saytlarimiz moslashuvchan, ya'ni komputer, planshet va mobil versiyaga ega bo'ladi.",
+
+        "second": "Mijozlarimiz uchun foydalanuvchilarni jalb qiladigan, daromadni oshiradigan va biznesni rivojlantiradigan samarali web-saytlar yaratamiz",
+
+        "third": "Loyihalarni belgilangan muddatlarda va sifatli yakunlaymiz. Kutilmagan qiyinchiliklarga tezkor javob berish va yechim topish qobiliyatimiz bor.",
+
+        "fourth": "Qulay va raqobatbardosh narxlarda yuqori sifatli xizmatlar ko'rsatamiz. Har bir byudjetga mos variantlarimiz mavjud.",
+
+        "fiveth": "Bizning web saytlar zamonaviy antivirus va fayrvollar bilan ximoyalangan bo'lib, spambot va xujumlarga bardosh bera oladi.",
+
+        "sixth": "Qulay va raqobatbardosh narxlarda yuqori sifatli xizmatlar ko'rsatamiz. Har bir byudjetga mos variantlarimiz mavjud.",
+
+        "seventh": "Web sayt qulay va sodda boshqaruv tizimiga ega bo'ladi, bu esa sizga web saytni mustaqil boshqarishingizga imkon beradi",
+
+        "eight": "Biz bilan siz domen va xosting muammolariga duch kelmaysiz. Bizda domen 1 yilga (.uz) va xosting 3 oyga bepul (keyin 10$/oyiga)",
+
+        "nineth": "Web saytingiz usluksiz ishlab turishi uchun, 24 soat davomida onlayn avtomatik tarzda kuzatib turiladi"
+      }
+    }
+  },
+
+  "questions": {
+    "title": {
+      "text1": "Eng ko'p beriladigan ",
+      "text2": "savollar"
+    },
+    "data": {
+      "title": {
+        "first": "Web sayt yaratish uchun qancha vaqt ketadi?",
+        "second": "Narxlar nega arzon?",
+        "third": "Web saytni boshqarishni bilmayman. Bu muammo bo'ladimi?",
+        "fourth": "Saytni to'liq o'zim boshqara olamanmi?",
+        "fiveth": "Saytni mobil telefonlarda ishlashiga ham e'tibor berasizmi?",
+        "sixth": "Web sayt uchun hosting va domenni kim taqdim etadi?",
+        "seventh": "Saytimni yangilash yoki o'zgartirish kiritish kerak bo'lsa, nima qilaman?",
+        "eight": "Qaysi turdagi web saytlarni yaratasiz?",
+        "nineth": "To'lov qanday amalga oshiriladi?",
+        "tenth": "Sayt xavfsizligini ta'minlaysizmi?",
+        "eleventh": "Saytimni qidiruv tizimlariga optimallashtirasizmi (SEO)?",
+        "twelveth": "Web saytni tilga moslashtirish (multi-language) mumkinmi?",
+        "thirteenth": "Saytimni yaratishdan oldin maslahat olishim mumkinmi?",
+        "fourteenth": "Saytni sotib olgandan keyin texnik yordam taqdim etasizmi?",
+        "fifteenth": "Sayt dizaynini kim tanlaydi?"
+      },
+      "text": {
+        "first": "Bu sizning talablaringizga bog‘liq. Oddiy saytni yaratish odatda 5-10 ish kuni ichida yakunlanadi. Katta yoki murakkab loyihalar esa ko‘proq vaqt talab qilishi mumkin. Loyihangizni muhokama qilganimizdan so‘ng aniq vaqtni aytib bera olamiz.",
+        "second": "Haqiqatdan ham sifatga nisbatan raxlar arzon. Chunki biz sifatni maqbul narxda taqdim etish uchun jarayonni optimallashtirganmiz va ortiqcha xarajatlarni kamaytirdik",
+        "third": "Umuman yo‘q! Biz barcha mijozlarimizga sayt boshqaruv tizimi bo‘yicha trening o‘tkazamiz va kerak bo‘lsa, saytni boshqarishda doim yordam beramiz.",
+        "fourth": "Ha, biz sizga qulay boshqaruv tizimi (CMS) bilan saytni yetkazib beramiz, bu orqali saytingizni oson boshqarishingiz mumkin. Bundan tashqari, biz qo'llab-quvvatlash xizmatini taklif qilamiz.",
+        "fiveth": "Ha, barcha saytlarimiz mobil telefonlar, planshetlar va boshqa qurilmalarda mukammal ishlashi uchun responsiv dizaynda yaratiladi.",
+        "sixth": "Biz sizga hosting va domenni ro‘yxatdan o‘tkazishda yordam beramiz yoki o‘z hosting xizmatlarimizni taklif qilamiz. Shu bilan birga, mavjud domeningizni saytga ulashda ham yordam bera olamiz.",
+        "seventh": "Sizga qulay boshqaruv tizimi orqali o‘zingiz mustaqil ravishda o‘zgartirishlar kiritishingiz mumkin. Agar professional yordam kerak bo‘lsa, bizning texnik jamoamiz xizmat ko‘rsatadi.",
+        "eight": "Biz turli xil saytlarni yaratamiz, jumladan: Vizitka saytlar, Onlayn do‘konlar, Bloglar,Korporativ saytlar, Portfoliolar va boshqa maxsus ehtiyojlarga mos saytlar.",
+        "nineth": "To‘lovni bosqichma-bosqich amalga oshirishingiz mumkin. Loyihaning boshlanishida 50% oldindan to‘lov talab qilinadi, qolgan qismi esa loyiha yakunlangandan so‘ng to‘lanadi.",
+        "tenth": "Ha, biz SSL sertifikatlarini o‘rnatamiz va sayt xavfsizligini ta’minlash uchun eng yaxshi amaliyotlardan foydalanamiz",
+        "eleventh": "Ha, biz saytni qidiruv tizimlari uchun asosiy optimallashtirishni (SEO) amalga oshiramiz. Shu bilan birga, qo‘shimcha SEO xizmatlarini ham taklif qilamiz.",
+        "twelveth": "Albatta, biz saytlarni bir nechta tilga moslashtirishni taklif qilamiz. Har bir tilga mos sahifalarni qulay tarzda boshqarishingiz mumkin.",
+        "thirteenth": "Albatta! Biz sizning barcha savollaringizga javob beramiz va loyihangiz uchun eng yaxshi yechimni topishga yordam beramiz. Konsultatsiya bepul!",
+        "fourteenth": "Ha, biz saytni yaratganimizdan so‘ng texnik qo‘llab-quvvatlash xizmatini taklif qilamiz. Bu xizmat bir yilgacha bepul bo‘lishi mumkin, keyin esa shartnomaga binoan davom ettiriladi.",
+        "fifteenth": "Dizayn sizning brendingiz va talablaringizga moslashtiriladi. Biz sizga bir nechta variantlarni taqdim etamiz va tanlovingiz asosida saytni ishlab chiqamiz."
+      }
+    }
+  },
+  "priceTitle": "Siz uchun hamyonbop narxdagi saytlarimiz",
+  "price": {
+    "first": {
+      "title": "Boshlang'ich sahifa",
+      "text": "Bir sahifalik oddiy sayt. Asosiy ma’lumotlar (masalan, xizmatlar, aloqa ma’lumotlari) bir sahifada joylashadi.",
+      "name": "Domen .uz",
+      "security": "Ximoya 24/7",
+      "day": "Muddati 7 kun",
+      "pages": "Sahifalar soni 1 ta",
+      "price": "$100"
+    },
+    "second": {
+      "title": "Sayt vizitka",
+      "text": "Ko‘proq ma’lumotni o‘z ichiga olgan va sahifalarga bo‘lingan tuzilma.",
+      "name": "Domen .uz",
+      "security": "Ximoya 24/7",
+      "day": "Muddati 7-15 kun",
+      "pages": "Sahifalar soni 2-5 ta",
+      "price": "$250"
+    },
+    "third": {
+      "title": "Yuqori darajali sayt",
+      "text": "To‘liq funksionallikka ega, murakkab va professional sayt.",
+      "name": "Domen .uz",
+      "security": "Ximoya 24/7",
+      "day": "Muddati 15-... kun",
+      "pages": "Sahifalar soni istalgancha",
+      "language": "Web-sayt 2 yoki 3 tilda",
+      "dizayn": "Yuqori darajali dizayn",
+      "price": "$500+"
+    },
+    "button": "Buyurtma berish"
+  },
+  "communication": {
+    "title": {
+      "first": "Biznesingizni rivojlantirish, daromadingizni oshirish uchun hoziroq web saytga buyurtma bering va",
+      "second": "20% chegirmaga",
+      "third": "ega bo'ling!"
+    },
+    "notification": "Eng muhimi bizda mijozlarimiz roziligi!",
+    "form": {
+      "title": "Ma'lumotingizni qoldiring",
+      "placeholders": {
+        "firstName": "Ismingizni kiriting",
+        "telNumber": "Raqamingizni kiriting",
+        "sms": "Xabaringizni qoldiring"
+      },
+      "button": "Yuborish"
+    }
+  },
+  "footer": {
+    "contact": "Kontaktlar",
+    "address": {
+      "title": "Manzil",
+      "text": "Toshkent shahar Chilonzor tumani"
+    },
+    "phone": {
+      "title": "Telefon raqam"
+    },
+    "media": {
+      "title": "Ijtimoiy tarmoqlar"
+    },
+    "workTime": {
+      "title": "Ish vaqti",
+      "text": "09:00 -18:00 Dushanba-Shanba"
     }
   }
 }

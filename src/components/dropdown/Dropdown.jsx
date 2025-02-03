@@ -5,17 +5,17 @@ const Dropdown = ({ item, isOpen, setIsOpen }) => {
     <div
       onClick={() => setIsOpen(isOpen === item.id ? null : item.id)}
       className={
-        "py-5 px-3 border-2 self-start rounded-lg w-[100%] mt-3 cursor-pointer transition-all duration-200  " +
+        "py-5 px-3 border-2 self-start  rounded-lg w-[100%] mt-3 cursor-pointer transition-all duration-200  " +
         (isOpen === item.id ? "border-customDarkGreen" : "")
       }
     >
       <div className="flex justify-between items-center gap-3">
         <p
           className={
-            "text-[18px] md:text-[20px] font-bold " +
+            "text-[18px] md:text-[20px] font-bold  " +
             (isOpen === item.id
               ? "text-customDarkGreen"
-              : "text-customWhite dark:text-customBlack ")
+              : "text-customWhite dark:text-customBlack truncate ")
           }
         >
           {item.id}. {item.title}

@@ -59,22 +59,22 @@ const CarouselSection = () => {
         <Slider {...settings}>
           <div>
             <h3 className="text-customDarkGreen text-[20px] md:text-[20px] lg:text-[30px]">
-              Web sayt yaratish
+              {t("carousel.elements.first")}
             </h3>
           </div>
           <div>
             <h3 className="text-customDarkGreen text-[20px] md:text-[20px] lg:text-[30px]">
-              Mobil ilovalar yaratish
+              {t("carousel.elements.second")}
             </h3>
           </div>
           <div>
             <h3 className="text-customDarkGreen text-[20px]  md:text-[20px] lg:text-[30px]">
-              Avtomatlashtirish tizimlari
+              {t("carousel.elements.third")}
             </h3>
           </div>
           <div>
             <h3 className="text-customDarkGreen text-[20px] md:text-[20px] lg:text-[30px]">
-              Raqamli yechimlar
+              {t("carousel.elements.fourth")}
             </h3>
           </div>
         </Slider>

@@ -4,48 +4,51 @@ import { BsFileEarmarkSpreadsheetFill } from "react-icons/bs";
 import { SiInductiveautomation } from "react-icons/si";
 import { RiAdvertisementFill } from "react-icons/ri";
 import { IoIosInformationCircle } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 
 const WithUsSection = () => {
+  const { t } = useTranslation();
+
   const info = [
     {
       id: 1,
       icon: <GiBedLamp className="text-[80px] text-customDarkGreen" />,
-      title: "Onlayn mavjudlik",
+      title: t("withUs.data.first"),
     },
     {
       id: 2,
       icon: (
         <SiLinuxprofessionalinstitute className="text-[80px] text-customDarkGreen" />
       ),
-      title: "Professional imidj",
+      title: t("withUs.data.second"),
     },
     {
       id: 3,
       icon: (
         <BsFileEarmarkSpreadsheetFill className="text-[80px] text-customDarkGreen" />
       ),
-      title: "Tadbirkorlikni kengaytirish",
+      title: t("withUs.data.third"),
     },
     {
       id: 4,
       icon: (
         <SiInductiveautomation className="text-[80px] text-customDarkGreen" />
       ),
-      title: "Ish jarayonlarini avtomatlashtirish",
+      title: t("withUs.data.fourt"),
     },
     {
       id: 5,
       icon: (
         <RiAdvertisementFill className="text-[80px] text-customDarkGreen" />
       ),
-      title: "Marketing va reklama imkoniyatlari",
+      title: t("withUs.data.fiveth"),
     },
     {
       id: 6,
       icon: (
         <IoIosInformationCircle className="text-[80px] text-customDarkGreen" />
       ),
-      title: "Axborot va analitika",
+      title: t("withUs.data.sixth"),
     },
   ];
   return (
@@ -55,8 +58,8 @@ const WithUsSection = () => {
           data-aos="fade-up"
           className=" text-[30px] sm:text-[40px] text-center text-customWhite dark:text-customBlack font-bold"
         >
-          Biz bilan birgalikda:
-          <span className="text-customDarkGreen "> siz erisha olasiz</span>
+          {t("withUs.title1")}
+          <span className="text-customDarkGreen ">{t("withUs.title2")}</span>
         </h4>
         <div className="grid  md:grid-cols-2 xl:grid-cols-3 gap-y-8 md:gap-y-16  gap-16 auto-rows-fr mt-10">
           {info.map((item) => (

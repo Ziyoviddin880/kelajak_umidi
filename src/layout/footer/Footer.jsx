@@ -9,28 +9,30 @@ import { IoShareSocialSharp } from "react-icons/io5";
 import { TbClockHour4Filled } from "react-icons/tb";
 
 import Contact from "../../components/footerComponents/Contact";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="bg-customBlack dark:bg-customWhite px-4 md:px-0 pt-12">
       <div className="container">
         <h3 className="text-customWhite dark:text-customBlack text-[30px]">
-          Kontaktlar
+          {t("footer.contact")}
         </h3>
         <div className="flex items-center flex-wrap flex-col-reverse md:flex-row gap-y-6 justify-between">
           <div className="w-full mx-auto md:mx-0 lg:w-[48%] grid grid-cols-1 md:grid-cols-2  gap-y-8">
             <Contact
-              title="Manzil"
+              title={t("footer.address.title")}
               icon={
                 <FaLocationDot className="text-customWhite dark:text-customBlack text-[20px]" />
               }
             >
               <p className="text-customWhite dark:text-customBlack mt-2">
-                Toshkent shahar Chilonzor tumani
+                {t("footer.address.text")}
               </p>
             </Contact>
             <Contact
-              title="Telefon raqam"
+              title={t("footer.phone.title")}
               icon={
                 <BsFillTelephoneInboundFill className="text-customWhite dark:text-customBlack text-[20px]" />
               }
@@ -40,7 +42,7 @@ const Footer = () => {
               </p>
             </Contact>
             <Contact
-              title="Ijtimoiy tarmoqlar"
+              title={t("footer.media.title")}
               icon={
                 <IoShareSocialSharp className="text-customWhite dark:text-customBlack text-[20px]" />
               }
@@ -58,13 +60,13 @@ const Footer = () => {
               </div>
             </Contact>
             <Contact
-              title="Ish vaqti"
+              title={t("footer.workTime.title")}
               icon={
                 <TbClockHour4Filled className="text-customWhite dark:text-customBlack text-[20px]" />
               }
             >
               <p className="text-customWhite dark:text-customBlack mt-2">
-                09:00 -18:00 Dushanba-Shanba
+                {t("footer.workTime.text")}
               </p>
             </Contact>
           </div>

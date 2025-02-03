@@ -1,8 +1,17 @@
+import { useTranslation } from "react-i18next";
 import Button from "../../components/button/Button";
+import { useEffect, useRef } from "react";
 
 const Commuication = () => {
+  const { t } = useTranslation();
+  const name = useRef(null);
+  const telNumber = useRef(null);
+  const commit = useRef(null);
+
   const submit = (e) => {
     e.preventDefault();
+    const token = "7908967230:AAFwJi_zztBHH4wHQ3s25W5eBEOLSdHGKdk";
+    // const chat_id=
   };
 
   return (
@@ -13,41 +22,44 @@ const Commuication = () => {
           data-aos-duration="1000"
           className="flex flex-wrap gap-[4%]"
         >
-          <div className="w-[100%] lg:w-[58%]">
+          <div id="contact" className="w-[100%] lg:w-[58%]">
             <p className="text-customWhite dark:text-customBlack text-[24px] lg:text-[40px] font-bold">
-              Biznesingizni rivojlantirish, daromadingizni oshirish uchun
-              hoziroq web saytga buyurtma bering va{" "}
-              <span className="text-customDarkGreen">20% chegirmaga</span> ega
-              bo'ling!
+              {t("communication.title.first")}{" "}
+              <span className="text-customDarkGreen">
+                {t("communication.title.second")}
+              </span>{" "}
+              {t("communication.title.third")}
             </p>
             <p className="text-[20px] lg:text-[30px] text-customDarkGreen mt-5">
-              Eng muhimi bizda mijozlarimiz roziligi!
+              {t("communication.notification")}
             </p>
           </div>
           <div className="w-[100%] lg:w-[38%]">
             <p className="text-customWhite mt-5 dark:text-customBlack text-[20px]  lg:text-[30px] font-bold mb-8 ">
-              Ma'lumotingizni qoldiring
+              {t("communication.form.title")}
             </p>
             <form onSubmit={submit}>
               <input
+                required
                 className="w-full mb-5 py-3 px-4 bg-gray-200 dark:bg-white dark:border outline-none rounded-md text-[18px]"
                 type="text"
-                placeholder="Ismingizni kiriting"
+                placeholder={t("communication.form.placeholders.firstName")}
               />
               <div>
                 <input
+                  required
                   className="w-full mb-5 py-3 px-4 bg-gray-200 dark:bg-white dark:border outline-none rounded-md text-[18px]"
                   type="text"
-                  placeholder="Raqamingizni kiriting"
+                  placeholder={t("communication.form.placeholders.telNumber")}
                 />
               </div>
               <textarea
+                required
                 rows={5}
                 className="w-full mb-5 py-3 px-4 bg-gray-200 dark:bg-white dark:border  rounded-md outline-none resize-none"
-                placeholder="Xabaringizni qoldiring"
+                placeholder={t("communication.form.placeholders.sms")}
               ></textarea>
-
-              <Button>Yuborish</Button>
+              <Button>{t("communication.form.button")}</Button>
             </form>
           </div>
         </div>

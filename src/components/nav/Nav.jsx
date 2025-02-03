@@ -56,7 +56,7 @@ const Nav = ({ setMobileMenu }) => {
       >
         {t("prices")}
       </NavLink>
-      <NavLink
+      {/* <NavLink
         to="/aboutUs"
         className={({ isActive }) =>
           `text-[18px] transition-all duration-200 ${
@@ -72,7 +72,7 @@ const Nav = ({ setMobileMenu }) => {
         }}
       >
         {t("aboutUs")}
-      </NavLink>
+      </NavLink> */}
     </div>
   );
 };

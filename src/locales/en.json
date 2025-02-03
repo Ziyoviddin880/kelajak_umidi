@@ -15,6 +15,172 @@
     "title": {
       "first": "We offer you",
       "second": "services"
+    },
+    "elements": {
+      "first": "Create a website",
+      "second": "Creating mobile applications",
+      "third": "Automation systems",
+      "fourth": "Digital solutions"
+    }
+  },
+  "withUs": {
+    "title1": "Together with us: ",
+    "title2": "you can achieve",
+    "data": {
+      "first": "Online presence",
+      "second": "Professional image",
+      "third": "Expanding entrepreneurship",
+      "fourt": "Automation of work processes",
+      "fiveth": "Marketing and advertising opportunities",
+      "sixth": "Information and analytics"
+    }
+  },
+  "advantages": {
+    "title": {
+      "text1": "Why us? Why do so many people choose our service?",
+      "text2": "Our advantages"
+    },
+    "data": {
+      "title": {
+        "first": "Flexibility",
+        "second": "Result-Oriented",
+        "third": "Speed",
+        "fourth": "Price and Quality Balance",
+        "fiveth": "Security",
+        "sixth": "Long-Term Support",
+        "seventh": "Admin Panel",
+        "eight": "Domain and Hosting",
+        "nineth": "24/7 Monitoring"
+      },
+      "text": {
+        "first": "Our websites are fully responsive, meaning they work seamlessly on computers, tablets, and mobile devices.",
+
+        "second": "We create effective websites that attract users, increase revenue, and help businesses grow.",
+
+        "third": "We complete projects on time and with high quality. We quickly respond to unexpected challenges and find solutions.",
+
+        "fourth": "We provide high-quality services at affordable and competitive prices. We have options suitable for every budget.",
+
+        "fiveth": "Our websites are protected with modern antivirus software and firewalls, making them resistant to spam bots and cyber attacks.",
+
+        "sixth": "We provide high-quality services at affordable and competitive prices. We have options suitable for every budget.",
+
+        "seventh": "The website comes with a user-friendly and simple management system, allowing you to manage it independently.",
+
+        "eight": "With us, you won't face domain and hosting issues. We offer a free .uz domain for one year and hosting for three months (then $10/month).",
+
+        "nineth": "Your website will be continuously monitored online 24/7 to ensure uninterrupted operation."
+      }
+    }
+  },
+
+  "questions": {
+    "title": {
+      "text1": "Most Frequently",
+      "text2": "Asked Questions"
+    },
+    "data": {
+      "title": {
+        "first": "How long does it take to create a website?",
+        "second": "Why are the prices so low?",
+        "third": "I don’t know how to manage a website. Is that a problem?",
+        "fourth": "Can I fully manage the website myself?",
+        "fiveth": "Do you ensure that the site works well on mobile phones?",
+        "sixth": "Who provides hosting and domain for the website?",
+        "seventh": "What should I do if I need to update or modify my website?",
+        "eight": "What types of websites do you create?",
+        "nineth": "How is the payment processed?",
+        "tenth": "Do you ensure website security?",
+        "eleventh": "Do you optimize my website for search engines (SEO)?",
+        "twelveth": "Can the website support multiple languages?",
+        "thirteenth": "Can I get a consultation before creating my website?",
+        "fourteenth": "Do you provide technical support after purchasing the website?",
+        "fifteenth": "Who chooses the website design?"
+      },
+      "text": {
+        "first": "It depends on your requirements. A simple website is usually completed within 5-10 business days. Larger or more complex projects may take longer. After discussing your project, we can give you an exact timeline.",
+        "second": "Our prices are low compared to the quality because we have optimized our process and reduced unnecessary costs to provide high quality at an affordable price.",
+        "third": "Not at all! We provide training on website management for all our clients and offer ongoing support if needed.",
+        "fourth": "Yes, we provide you with an easy-to-use content management system (CMS) that allows you to manage your website effortlessly. Additionally, we offer support services.",
+        "fiveth": "Yes, all our websites are designed to be fully responsive, ensuring they work perfectly on mobile phones, tablets, and other devices.",
+        "sixth": "We assist you in registering hosting and domains or offer our own hosting services. We can also help connect an existing domain to your website.",
+        "seventh": "You can make changes yourself using the user-friendly content management system. If professional help is needed, our technical team is available.",
+        "eight": "We create various types of websites, including: Business card websites, Online stores, Blogs, Corporate websites, Portfolios, and other customized websites.",
+        "nineth": "Payments can be made in stages. A 50% upfront payment is required before starting the project, and the remaining balance is paid upon completion.",
+        "tenth": "Yes, we install SSL certificates and follow best security practices to ensure website safety.",
+        "eleventh": "Yes, we implement basic SEO for search engine optimization and also offer additional SEO services.",
+        "twelveth": "Absolutely, we offer multilingual support for websites, allowing you to manage content in multiple languages easily.",
+        "thirteenth": "Of course! We answer all your questions and help you find the best solution for your project. Consultations are free!",
+        "fourteenth": "Yes, we offer technical support after website creation. This service is free for up to one year and can be extended under contract.",
+        "fifteenth": "The design is customized according to your brand and preferences. We provide several options, and the website is developed based on your selection."
+      }
+    }
+  },
+  "priceTitle": "Affordable Websites for You",
+  "price": {
+    "first": {
+      "title": "Landing Page",
+      "text": "A simple one-page website that contains essential information (e.g., services, contact details) all on one page.",
+      "name": "Domain .uz",
+      "security": "24/7 Security",
+      "day": "Completion Time: 7 days",
+      "pages": "Number of Pages: 1",
+      "price": "$100"
+    },
+    "second": {
+      "title": "Business Card Website",
+      "text": "A structured website with multiple pages containing more detailed information.",
+      "name": "Domain .uz",
+      "security": "24/7 Security",
+      "day": "Completion Time: 7-15 days",
+      "pages": "Number of Pages: 2-5",
+      "price": "$250"
+    },
+    "third": {
+      "title": "Advanced Website",
+      "text": "A fully functional, complex, and professional website.",
+      "name": "Domain .uz",
+      "security": "24/7 Security",
+      "day": "Completion Time: 15+ days",
+      "pages": "Number of Pages: Unlimited",
+      "language": "Website in 2 or 3 languages",
+      "dizayn": "High-Level Design",
+      "price": "$500+"
+    },
+    "button": "Order Now"
+  },
+  "communication": {
+    "title": {
+      "first": "Order a website today to grow your business and increase your income, and",
+      "second": "get a 20% discount!",
+      "third": ""
+    },
+    "notification": "Most importantly, customer satisfaction is our priority!",
+    "form": {
+      "title": "Leave Your Information",
+      "placeholders": {
+        "firstName": "Enter Your Name",
+        "telNumber": "Enter Your Phone Number",
+        "sms": "Leave Your Message"
+      },
+      "button": "Send"
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": {
+      "title": "Address",
+      "text": "Chilanzar District, Tashkent City"
+    },
+    "phone": {
+      "title": "Phone Number"
+    },
+    "media": {
+      "title": "Social Media"
+    },
+    "workTime": {
+      "title": "Working Hours",
+      "text": "09:00 - 18:00 Monday-Saturday"
     }
   }
 }

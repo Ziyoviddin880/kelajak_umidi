@@ -8,8 +8,8 @@ const ChangeLng = () => {
   const options = [
     { label: "UZ", img: <Uz /> },
     { label: "УЗ", img: <Uz /> },
-    { label: "EN", img: <En /> },
     { label: "RU", img: <Ru /> },
+    { label: "EN", img: <En /> },
   ];
   const { i18n } = useTranslation();
   const language = localStorage.getItem("i18nextLng");

@@ -18,13 +18,13 @@ export const router = createBrowserRouter(
             window.scrollTo(0, 0); // Sahifani tepa qismga o'rnatish
           },
         },
-        {
-          path: "/aboutUs",
-          element: <About />,
-          loader: async () => {
-            window.scrollTo(0, 0); // Sahifani tepa qismga o'rnatish
-          },
-        },
+        // {
+        //   path: "/aboutUs",
+        //   element: <About />,
+        //   loader: async () => {
+        //     window.scrollTo(0, 0); // Sahifani tepa qismga o'rnatish
+        //   },
+        // },
         {
           path: "/services",
           element: <Services />,

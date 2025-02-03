@@ -1,11 +1,18 @@
-export const seniorPrice = {
-  title: "Yuqori darajali sayt",
-  text: "To‘liq funksionallikka ega, murakkab va professional sayt.",
-  name: "Domen .uz",
-  security: "Ximoya 24/7",
-  day: "Muddati 15-... kun",
-  pages: "Sahifalar soni istalgancha",
-  language: "Web-sayt 2 yoki 3 tilda",
-  dizayn: "Yuqori darajali dizayn",
-  price: "$500+",
+import { useTranslation } from "react-i18next";
+
+const SeniorPrice = () => {
+  const { t } = useTranslation();
+  return {
+    title: t("price.third.title"),
+    text: t("price.third.text"),
+    name: t("price.third.name"),
+    security: t("price.third.security"),
+    day: t("price.third.day"),
+    pages: t("price.third.pages"),
+    language: t("price.third.language"),
+    dizayn: t("price.third.dizayn"),
+    price: "$500+",
+  };
 };
+
+export default SeniorPrice;
