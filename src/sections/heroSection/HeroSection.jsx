@@ -5,7 +5,7 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-[url('./src/assets/bgImage.jpg')] pt-10 relative h-[60vh] md:h-[90vh] bg-opacity-50 bg-center bg-cover bg-no-repeat ">
+    <section className="bg-[url('./assets/bgImage.jpg')] pt-10 relative h-[60vh] md:h-[90vh] bg-opacity-50 bg-center bg-cover bg-no-repeat ">
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm "></div>
       <div className="container">
         <h1

@@ -15,7 +15,7 @@ const Dropdown = ({ item, isOpen, setIsOpen }) => {
             "text-[18px] md:text-[20px] font-bold  " +
             (isOpen === item.id
               ? "text-customDarkGreen"
-              : "text-customWhite dark:text-customBlack truncate ")
+              : "text-customWhite opacity-80 dark:text-customBlack truncate ")
           }
         >
           {item.id}. {item.title}

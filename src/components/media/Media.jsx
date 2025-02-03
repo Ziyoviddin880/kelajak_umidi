@@ -13,7 +13,11 @@ const Media = () => {
           +998880078746
         </span>
       </a>
-      <a href="" className="flex items-center group gap-2">
+      <a
+        href="https://t.me/abdurashidov_ziyoviddin"
+        target="_blank"
+        className="flex items-center group gap-2"
+      >
         <FaTelegram className="text-customWhite dark:text-customBlack text-[20px]  group-hover:text-customLightGreen transition-all duration-200" />
         <span className="text-customWhite dark:text-customBlack  group-hover:text-customLightGreen transition-all duration-200">
           {t("telegram")}

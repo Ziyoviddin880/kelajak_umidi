@@ -4,6 +4,8 @@ import "./App.css";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Aos from "aos";
+import { ToastContainer } from "material-react-toastify";
+import "material-react-toastify/dist/ReactToastify.css";
 
 function App() {
   useEffect(() => {
@@ -16,6 +18,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <ToastContainer position="top-right" />
     </>
   );
 }
