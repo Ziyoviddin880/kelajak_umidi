@@ -24,7 +24,7 @@ const Navbar = () => {
           <ChangeDarkMode />
           <CiMenuBurger
             onClick={() => setMobileMenu(true)}
-            className="dark:text-customBlack text-[20px] text-customWhite"
+            className="dark:text-customBlack text-[20px] cursor-pointer text-customWhite"
           />
         </div>
       </div>

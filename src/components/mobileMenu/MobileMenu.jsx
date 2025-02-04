@@ -13,7 +13,7 @@ const MobileMenu = ({ mobileMenu, setMobileMenu }) => {
       <div className="dark:bg-customWhite bg-customBlack w-[70%] h-full ml-auto p-5">
         <div
           onClick={() => setMobileMenu(false)}
-          className="w-[30px] h-[30px] ml-auto bg-customWhite  dark:bg-customBlack dark:bg-opacity-20 rounded mb-10"
+          className="w-[30px] h-[30px] ml-auto bg-customWhite cursor-pointer  dark:bg-customBlack dark:bg-opacity-20 rounded mb-10"
         >
           <IoMdClose className="text-[30px] text-customBlack " />
         </div>
