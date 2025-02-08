@@ -55,7 +55,7 @@ const Prices = ({ price }) => {
               </p>
             </div>
             <div className="mt-5 sm:mt-0">
-              <Button>
+              <Button aria-label="Ordering" type="button">
                 <a href="#contact">Buyurtma berish</a>
               </Button>
             </div>

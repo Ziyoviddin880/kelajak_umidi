@@ -95,7 +95,7 @@ const Commuication = () => {
                 className="w-full mb-5 py-3 px-4 bg-gray-200 dark:bg-white dark:border  rounded-md outline-none resize-none"
                 placeholder={t("communication.form.placeholders.sms")}
               ></textarea>
-              <Button loading={loading}>
+              <Button aria-label="Sending">
                 {t("communication.form.button")}
               </Button>
             </form>

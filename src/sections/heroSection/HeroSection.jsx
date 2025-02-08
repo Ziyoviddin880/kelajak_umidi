@@ -21,7 +21,7 @@ const HeroSection = () => {
           {t("title.text")}
         </p>
         <div className="text-center opacity-80 mt-10 ">
-          <Button type="button">
+          <Button aria-label="Communication" type="button">
             <a href="#contact">{t("apply")}</a>{" "}
           </Button>
         </div>
