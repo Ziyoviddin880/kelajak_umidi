@@ -26,7 +26,7 @@ const ChangeLng = () => {
             element.classList.toggle("hidden");
           });
         }}
-        className=" bg-transparent text-customWhite dark:text-customBlack  flex justify-between items-center"
+        className="bg-transparent text-customWhite dark:text-customBlack flex justify-between items-center"
       >
         <span className="flex items-center gap-2">
           {selected.label}
@@ -62,7 +62,6 @@ const ChangeLng = () => {
             }}
           >
             {option.label}
-
             {option.img}
           </div>
         ))}
